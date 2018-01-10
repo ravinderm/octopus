@@ -9,7 +9,7 @@
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
 </metadata>
 <files>
-	 <file src="..\..\bin\$configuration$\OctopusExample.DB.dacpac" target="" /> 
+	 <file src="%teamcity.build.checkoutDir%\bin\$configuration$\OctopusExample.DB.dacpac" target="" /> 
 	<!-- <file src="..\..\..\bin\$configuration$\OctopusExample.DB.dacpac\**" target="" /> -->
 	<!-- <file src="..\bin\$configuration$\OctopusExample.DB.publish.xml" target="" /> -->
 	<file src="..\..\bin\$configuration$\OctopusExample.DB.dll" />
