@@ -11,7 +11,7 @@
 <files>
 	<!-- <file src="..\..\OctopusExample.DB.dacpac\**" target="" /> -->
 	<!-- <file src="..\..\..\bin\$configuration$\OctopusExample.DB.dacpac\**" target="" /> -->
-	<!-- <file src="\bin\$configuration$\OctopusExample.DB.publish.xml" target="" /> -->
+	<!-- <file src="..\bin\$configuration$\OctopusExample.DB.publish.xml" target="" /> -->
 	<file src="\bin\$configuration$\OctopusExample.DB.dll" />
 </files>
 </package>
