@@ -8,7 +8,7 @@ Post-Deployment Script Template
  Example:      :setvar TableName MyTable							
                SELECT * FROM [$(TableName)]					
 			   */
-:r .\"Populate dbo.Example.sql","Script.PostDeployment2.sql"
-
+:r .\"Populate dbo.Example.sql"
+:r .\"Script.PostDeployment2.sql"
 --------------------------------------------------------------------------------------
 
