@@ -75,7 +75,9 @@
     <PostDeploy Include="Scripts\Post Deployment.sql" />
     <Build Include="dbo\Views\ExampleAggregated.sql" />
     <Build Include="Procedure1.sql" />
-    <None Include="Scripts\Script1.sql" />
+    <None Include="Scripts\Script1.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Post Deployment\Populate dbo.Example.sql" />
