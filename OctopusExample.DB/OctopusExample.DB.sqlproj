@@ -82,5 +82,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include=".nuspec" />
+    <None Include="Script1.sql" />
   </ItemGroup>
 </Project>
