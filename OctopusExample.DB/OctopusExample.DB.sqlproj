@@ -72,7 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Example.sql" />
-    <PostDeploy Include="Scripts\Post Deployment.sql" />
+    <None Include="Scripts\Post Deployment.sql" />
     <Build Include="dbo\Views\ExampleAggregated.sql" />
     <Build Include="Procedure1.sql" />
     <None Include="Scripts\Script1.sql">
@@ -80,10 +80,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\Post Deployment\Populate dbo.Example.sql" />
+    <PostDeploy Include="Scripts\Post Deployment\Populate dbo.Example.sql" />
     <None Include="OctopusExample.DB.publish.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include=".nuspec" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Post Deployment\Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>
