@@ -80,13 +80,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="Scripts\Post Deployment\Populate dbo.Example.sql" />
+    <None Include="Scripts\Post Deployment\Populate dbo.Example.sql" />
     <None Include="OctopusExample.DB.publish.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include=".nuspec" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\Post Deployment\Script.PostDeployment1.sql" />
+    <PostDeploy Include="Scripts\Post Deployment\Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>
