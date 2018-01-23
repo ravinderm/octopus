@@ -75,6 +75,7 @@
     <PostDeploy Include="Scripts\Post Deployment.sql" />
     <Build Include="dbo\Views\ExampleAggregated.sql" />
     <Build Include="Procedure1.sql" />
+    <None Include="Scripts\Script1.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Post Deployment\Populate dbo.Example.sql" />
@@ -82,6 +83,5 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include=".nuspec" />
-    <None Include="Script1.sql" />
   </ItemGroup>
 </Project>
