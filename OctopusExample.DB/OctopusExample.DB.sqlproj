@@ -57,7 +57,6 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
-	<!-- -->
     <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
     <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
   </PropertyGroup>
@@ -75,6 +74,7 @@
     <Build Include="dbo\Tables\Example.sql" />
     <PostDeploy Include="Scripts\Post Deployment.sql" />
     <Build Include="dbo\Views\ExampleAggregated.sql" />
+    <Build Include="Procedure1.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Post Deployment\Populate dbo.Example.sql" />
