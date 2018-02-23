@@ -5,6 +5,6 @@ INSERT INTO [dbo].[Example]
            ([ExampleId]
            ,[SomeData])
      VALUES
-           (12133, 'ravi2')
+           (02232018, 'feb231115')
 GO
 
